@@ -1,0 +1,45 @@
+.allyFace {
+	width: 250px;
+	float: left;
+	padding: 20px 40px 10px 30px;
+}
+
+.aboutMe {
+	position: relative;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border: #dddddd;
+	line-height: 150%;
+	margin-bottom: 20px;
+	padding: 0 20px 0 10px;
+	top: 120px;
+}
+
+.aboutMe p {
+	padding: 14px 0 0 30px;
+}
+
+/* Media Queries */
+
+/* 768px screen */
+
+@media screen and (max-width: 768px) {	
+	.aboutMe {
+		max-width: 80%;
+	}
+
+/* 640px screen */
+
+@media screen and (max-width: 640px) {
+	.allyFace {
+		width: 90%;
+	}
+	.aboutMe {
+		min-width: 90%;
+		margin-top: 20px;
+	}
+	.aboutMe p {
+	line-height: 200%;
+}
+}

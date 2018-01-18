@@ -1,0 +1,76 @@
+.contact {
+	position: relative;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border: #dddddd;
+	line-height: 150%;
+	margin-bottom: 20px;
+	padding: 0 20px 0 10px;
+	top: 120px;
+	height: auto;
+	margin-bottom: 150px;
+}
+
+h4 {
+	position: relative;
+	padding-left: 2px;
+	left: 30px;
+}
+
+input {
+	position: relative;
+	width: 80%;
+	padding: 10px;
+	top: -16px;
+	left: 30px;
+}
+
+input:focus {
+	background-color: #fafafa;
+}
+
+/*I couldn't get the cursor to 
+start at the top of this input :(*/
+.messageInput {
+	height: 200px;
+	padding-top: 0;
+}
+
+.submitBtn {
+	background-color: #00aea7;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	margin: 20px 0 20px 0;
+	position: relative;
+	left: 30px;
+}
+
+/* Media Queries */
+
+/* 768px screen */
+
+@media screen and (max-width: 768px) {	
+	.contact {
+		min-width: 90%;
+		margin-bottom: 20px;
+	}
+	.input {
+		min-width: 90%;
+	}
+}
+
+/* 640px screen */
+
+@media screen and (max-width: 640px) {
+	.contact {
+		min-width: 90%;
+		margin-top: 20px;
+	}
+	input {
+		max-width: 70%;
+	}
+}
+
+
+

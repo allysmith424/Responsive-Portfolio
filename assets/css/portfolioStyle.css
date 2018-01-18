@@ -1,0 +1,110 @@
+.mainContent {
+	position: relative;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border: #dddddd;
+	padding: 0 20px 0 10px;
+	top: 120px;
+	height: auto;
+	margin-bottom: 200px;
+}
+
+.headline {
+    background-color: #00aea7;
+    opacity: 0.8;
+    color: #ffffff;
+    height: 60px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    bottom: 100px;
+}
+
+.headline:hover {
+	background-color: #00aea7;
+	opacity: 1;
+}
+
+h4 {
+	position: relative;
+	text-align: center;
+	top: 20px;
+}
+
+.image {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.i1 {
+	float: left;
+	left: 10%;
+}
+
+.i2 {
+	float: right;
+	right: 10%;
+}
+
+.i3 {
+	float: left;
+	clear: both;
+	left: 10%;
+}
+
+.i4 {
+	float: right;
+	right: 10%;
+}
+
+.i5 {
+	float: left;
+	clear: both;
+	left: 10%;
+}
+
+.i6 {
+	float: right;
+	right: 10%;
+}
+
+/* Media Queries */
+
+/* 768px screen */
+
+@media screen and (max-width: 768px) {	
+	.mainContent {
+		min-width: 90%;
+		margin-bottom: 20px;
+	}
+
+}
+
+/* 640px screen */
+
+/* I couldn't get the images to line up 
+in the center on this screen :( */
+
+@media screen and (max-width: 640px) {
+	.mainContent {
+		width: 90%;
+		margin-top: 20px;
+	}
+	.image {
+		clear: both;
+		min-width: 50%;
+		margin: 20px auto;
+		padding: 0;
+	}
+	img {
+		min-width: 80%;
+		margin: 0 auto;
+	}
+	.headline {
+		width: 38.6%;
+	}
+}
+

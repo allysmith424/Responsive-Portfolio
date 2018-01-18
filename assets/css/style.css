@@ -1,0 +1,242 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+	color: #269390;
+	background: url("../images/linen/linen.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0 auto;	
+}
+
+header {
+	width: 100%;
+	background-color: #ffffff;
+	float: left;
+	clear: both;
+	border-bottom: 2px solid #cccccc;
+	position: fixed;
+	z-index: 100;
+}
+
+h1 {
+	float: left;
+    width: 20%;
+    background-color: #00aea7;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;	
+}
+
+h2, h3 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #00aea7;
+	background-color: #ffffff;
+}
+
+h2 {
+	position: relative;
+	width: 95%;
+	padding: 10px 0 10px 30px; 
+	border-bottom: 2px solid #cccccc;
+}
+
+h3 {
+	position: relative;
+	width: 80%;
+	border-bottom: 2px solid #cccccc;
+	padding: 8px 0 11px 0;
+	left: 20px;
+}
+
+a {
+	color: #757575;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3c3839;
+}
+
+.aboutMe a {
+	color: #269390;
+}
+
+.aboutMe a:hover {
+	color: #3c3839;
+}
+
+nav {
+	float: right;
+	width: 30%;
+	background-color: #ffffff;
+	padding-top: 10px;
+	color: #757575;
+}
+
+nav:hover {
+	color: #3c3839;
+}
+
+nav li {
+	padding: 0 10px 0 10px;
+	color: #757575;
+}
+
+#middle {
+	border-left: 0.5px solid #757575;
+	border-right: 0.5px solid #757575;
+}
+
+li {
+	display: inline;
+}
+
+i {
+	font-size: 40px;
+}
+
+footer {
+	color: #ffffff;
+	background-color: #666666;
+	clear: both;
+	height: 70px;
+	border-top: 5px solid #00aea7;
+	margin-bottom: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: inline-block;
+}
+
+footer p{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+.container1, .container2 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container2 {
+	min-height: 100%;
+	overflow: hidden;
+	margin-bottom: 85px;
+}
+
+.social img {
+	width: 50px;
+	padding: 2px;
+}
+
+.connectWithMe {
+	width: 270px;
+	float: right;
+	background-color: #ffffff;
+	top: 120px;
+	height: 150px;
+	position: relative;
+}
+
+.connectWithMe li {
+	padding: 8px;
+}
+
+
+/* Media Queries */
+
+/* 768px screen */
+
+@media screen and (max-width: 768px) {	
+	.container1, .container2 {
+		width: 90%;
+	}
+	.connectWithMe {
+		float: left;
+		min-width: 100%;
+		margin-bottom: 150px;
+	}
+	nav {
+		min-width: 270px;
+	}
+	h1 {
+		font-size: 1.2em
+	}
+	h3 {
+		width: 90%;
+		padding-left: 20px;
+	}
+}
+
+/* 640px screen */
+
+@media screen and (max-width: 640px) {	
+	.container1 {
+		width: 100%
+	}
+
+	.container2 {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	/* Disparity between width of connectWithMe 
+	and container2*/
+	.connectWithMe {
+		min-width: 90%;
+		margin: 0 auto 250px auto;
+	}
+	/* I can't work out how to center the nav links*/
+	nav {
+		width: 80%;
+		margin: 0 auto;
+	}
+	nav ul {
+		width: 100%;
+	}
+	h1 {
+		width: 100%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	h2 {
+		max-width: 70%;
+	}
+	h3 {
+		max-width: 90%;
+		padding-left: 20px;
+	}
+	#first {
+		padding-right: 40px;
+		margin-left: 0; 
+	}
+	#middle {
+		padding: 0 40px;
+	}
+	#last {
+		padding-left: 40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
